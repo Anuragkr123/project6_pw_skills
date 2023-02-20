@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  .navbar{
+      background-color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 31px 83px;
+      height: 94px;
+  }
+  .navbar-log{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+  }
+  .navbar-logo img{
+      width: 99px;
+      height: auto;
+  }
+  .line{
+      width: 1px;
+      height: 50px;
+      margin-left: 63px;
+      background-color: #fff;
+  }
+  .list-items{
+     flex-grow: 1;
+  }
+  .list-items ul{
+      display: flex;
+      align-items: center;
+      gap: 63px; 
+      list-style: none;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      margin-left: 64px;
+  }
+  .list-items ul li a{
+      text-decoration: none;
+      color: #fff;
+  }
+  .list-items ul li a:hover{
+      background-color: #fff;
+      color: black;
+      padding: 7px 13px;
+      border: none;
+      border-radius: 30px;
+  }
+   button{
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 24px;
+      color: #fff;
+      background-color: #ba0cc5;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 27px;
+      transition: .4s;
+  }
+  button:hover{
+    transform: scale(1.2);
+  }
+  .hero{
+      background-image: url("./assets/bg.png");
+      background-size: cover;
+      background-attachment: fixed;
+      text-align: center;
+      height: 91vh;
+  }
+  .hero-heading{
+    text-align: center;
+    line-height: 98px;
+    font-weight: bolder;
+    font-size: 80px;
+    color: white;
+    font-style: normal;
+    max-width: 850px;
+    margin: 0 auto;
+    padding-top: 172px;
+  }
+  .hero-paragraph{
+    color: white;
+    font-style: none;
+    font-weight: 500;
+    font-size: 29.7px;
+  }
+  .large-button{
+    margin-top: 63px;
+    font-size: 29px;
+    padding: 24px 29px;
+    
+  }
